@@ -77,9 +77,7 @@ const clickItem = (evento) => {
         const indice = elemento.dataset.indice;
         atualizarItem(indice);
     }
-} 
-
-
+}
 
 document.getElementById('newItem').addEventListener('keypress', inserirItem);
 document.getElementById('todoList').addEventListener('click', clickItem);//testar que nao esta diferenciando os values no html e que precisa ter uma diferença aqui nos values de cada tarefa
