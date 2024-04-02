@@ -1,18 +1,5 @@
 'use strict';
 
-                /*<label class="todo__item">
-                <input type="checkbox">
-                <div>teste de item 1</div>
-                <input type="button" value="X">
-                </label>*/
-
-//let banco = [
-  //  {'tarefa': 'Estudar JavaScript', 'status':''},
-   // {'tarefa': 'Terminar Serie Netflix', 'status':'checked'},
-//] 
-
-//mostrar o aplication para exibir o conceito do json no google chrome
-
 const getBanco = () => JSON.parse(localStorage.getItem('todoList')) ?? [];
 const setBanco = (banco) => localStorage.setItem('todoList', JSON.stringify(banco));
 
